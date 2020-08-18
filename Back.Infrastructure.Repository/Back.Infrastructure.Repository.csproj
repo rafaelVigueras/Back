@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Back.Domain.Entity\Back.Domain.Entity.csproj" />
+    <ProjectReference Include="..\Back.Infrastructure.Data\Back.Infrastructure.Data.csproj" />
+    <ProjectReference Include="..\Back.Infrastructure.Interface\Back.Infrastructure.Interface.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.7">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.1.7" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Back.Application.DTO\Back.Application.DTO.csproj" />
+    <ProjectReference Include="..\Back.Application.Interface\Back.Application.Interface.csproj" />
+    <ProjectReference Include="..\Back.Application.Main\Back.Application.Main.csproj" />
+    <ProjectReference Include="..\Back.Domain.Core\Back.Domain.Core.csproj" />
+    <ProjectReference Include="..\Back.Domain.Entity\Back.Domain.Entity.csproj" />
+    <ProjectReference Include="..\Back.Domain.Interface\Back.Domain.Interface.csproj" />
+    <ProjectReference Include="..\Back.Infrastructure.Data\Back.Infrastructure.Data.csproj" />
+    <ProjectReference Include="..\Back.Infrastructure.Interface\Back.Infrastructure.Interface.csproj" />
+    <ProjectReference Include="..\Back.Infrastructure.Repository\Back.Infrastructure.Repository.csproj" />
+  </ItemGroup>
+
+
+</Project>
